@@ -1,0 +1,807 @@
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+/* html */
+/*---------------------------------*/
+a {
+    font-family: 'Droid Arabic Kufi';
+
+}
+
+p {
+    font-family: 'Droid Arabic Kufi';
+
+}
+
+table{
+    font-family: 'Droid Arabic Kufi';
+}
+
+h1{
+    font-family: 'Droid Arabic Kufi';
+}
+
+
+.load{
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    z-index:9999;
+    background:url("../images/loding.gif") no-repeat center center rgb(255, 255, 255);
+    background-size: 20%;
+    opacity: 95%;
+  }
+
+/* header */
+/*---------------------------------*/
+
+.header {
+    background-color: #7B726D;
+    padding: 1px;
+    height: 93px;
+    text-align: center;
+    box-shadow: 0px 5px 26px 0px rgba(0, 0, 0, 0.205);
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    position: relative;
+}
+
+.logo img {
+    float: right;
+    max-width: 160px;
+    height: auto;
+    margin: 5px 30px 0px 0px;
+}
+
+.menu-icon {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0px 0px 0px 0px;
+}
+
+.menu a:hover {
+    color: #DFCDCC;
+}
+
+
+.dropdown-menu a:link {
+    color: #7B726D;
+    background-color: #ffffff;
+    
+}
+
+.dropdown-menu a:link:hover {
+    color: #4e4743;
+    background-color: #a8968d;
+    
+}
+
+.mobile {
+    display: none
+}
+
+.button-menu {
+    background-color: #5f5853;
+    border:none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 26px 0px rgba(0, 0, 0, 0.041);
+    margin: 25px 30px 0px 0px;
+    color:#ffffff;
+}
+
+/* body */
+/*---------------------------------*/
+
+.body {
+    background-color: #ffffff;
+    display: block;
+    margin: 60px 0px 60px 0px;
+    text-align: center;
+}
+
+.body ul{
+    list-style: none;
+}
+
+.body a {
+    font-size: 11px;
+    color: rgb(151, 151, 151);
+    text-decoration: none;
+}
+
+.index {
+    background-color: #f8f8f8;
+    padding: 7px;
+    border-radius: 20px;
+    margin: 60px 60px 60px 60px;
+    box-shadow: 0px 5px 26px 0px rgba(0, 0, 0, 0.041);
+}
+.index ul{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: center; /* center items horizontally, in this case */
+    align-items: center;
+    
+}
+
+.index li {
+    list-style: none;
+    display: block;
+    width: calc(90% / 3);
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    box-shadow: 0px 5px 26px 0px rgba(0, 0, 0, 0.041);
+    border-radius: 10px;
+    color: #7B726D;
+    margin: 20px 20px 20px 20px;
+    word-wrap: break-word;
+  }
+
+  .index button {
+    margin: 60px 60px 60px 60px;
+    font-size: 20px;
+    background-color: #ad9d8b;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 26px 0px rgba(0, 0, 0, 0.041);
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  .index button:hover {
+    background-color: #997f6c;
+    color: #ffffff;
+  }
+
+  .index a{
+
+    font-size: 15px;
+  }
+
+
+
+.index a:hover {
+    
+    color: #ca5b1f
+
+}
+
+.button-index-quran {
+    margin: 60px 60px 60px 60px;
+    font-size: 20px;
+    background-color: #7B726D;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    font-family: 'Droid Arabic Kufi';
+    box-shadow: 0px 5px 26px 0px rgba(0, 0, 0, 0.041);
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  .button-index-quran:hover {
+    background-color: #997f6c;
+    color: #ffffff;
+  }
+
+.table a {
+    font-size: 14px;
+    color: rgb(151, 151, 151);
+    font-weight: 600;
+    
+}
+
+.table a:hover {
+    color: rgb(219, 127, 73);
+}
+
+.table table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 5px 26px 0px rgba(0, 0, 0, 0.089);
+
+}
+.table th {
+    border-top: 1px solid ;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-color: #ddd;
+    padding: 16px;
+    font-size: 16px;
+    color: rgb(110, 110, 110);
+}
+
+.table td {
+    border-top: 1px solid ;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-color: #ddd;
+    padding: 16px;
+    font-size: 14px;
+    color: rgb(151, 151, 151);
+    font-weight: 600;
+}
+
+.table th:hover, .table td:hover {
+    background-color: rgba(221, 221, 221, 0.144);
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.index_txt {
+
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 17px;
+    color: rgb(175, 175, 175);
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.049);
+}
+
+.quran {
+
+    background-color: #f8f8f8;
+    padding: 7px;
+    border-radius: 20px;
+    margin: 60px 60px 60px 60px;
+    box-shadow: 0px 5px 26px 0px rgba(0, 0, 0, 0.041);
+
+}
+
+.quran p{
+    margin: 60px 60px 60px 60px;
+    line-height: 2.8;
+    color: #7B726D
+}
+
+.quran h1{
+    margin: 60px 60px 60px 60px;
+    color: #7B726D
+}
+
+.quran_info {
+
+    background-color: #eef8e1;
+    padding: 7px;
+    border-radius: 20px;
+    margin: 60px 60px 60px 60px;
+    box-shadow: 0px 5px 26px 0px rgba(0, 0, 0, 0.041);
+
+}
+.quran_info ul {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: center; /* center items horizontally, in this case */
+    align-items: center;
+    font-family: 'Droid Arabic Kufi';
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    
+}
+
+.quran_info li {
+
+    list-style: none;
+    display: block;
+    width: calc(90% / 3);
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    box-shadow: 0px 5px 26px 0px rgba(0, 0, 0, 0.041);
+    border-radius: 10px;
+    color: #7B726D;
+    margin: 20px 20px 20px 20px;
+    word-wrap: break-word;
+    
+}
+.quran_info p {
+
+    margin: 20px 20px 20px 20px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #a8b988;
+    text-shadow: 2px 1px 6px rgba(0, 0, 0, 0.041);
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.table button{
+
+    font-size: 18px;
+    background-color: #7B726D;
+    color: #ffffff;
+    border: none;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.164);
+}
+
+.quran_pdf ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: center; /* center items horizontally, in this case */
+    align-items: center;
+}
+.quran_pdf li{
+    list-style: none;
+    display: block;
+    width: calc(180% / 4);
+    word-wrap: break-word;
+    margin: 20px 20px 20px 20px;
+    background-color: #7B726D;
+    padding: 7px;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.201);
+    border-radius: 40px;
+}
+
+.pdf_image{
+
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.pdf_image img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 40px;
+    box-shadow: 0px 22px 26px 0px rgba(0, 0, 0, 0.267);
+}
+
+.pdf_info p{
+
+    font-family: 'Droid Arabic Kufi';
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.pdf_info span {
+
+    font-weight:normal;
+    margin-right: 8px;
+    color: #ddd;
+}
+
+.name_pdf{
+
+    margin-top: 55px;
+    margin-bottom: 35px;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 1px 6px rgba(0, 0, 0, 0.247);
+    font-style:normal;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), #504a47, rgba(255,0,0,0));
+    
+
+}
+
+.pdf_text a{
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: #ddd;
+    text-shadow: 2px 1px 6px rgba(0, 0, 0, 0.247);
+}
+
+.pdf_text a:hover{
+    color:peru;
+}
+
+.altaqwaa_madia {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: center; /* center items horizontally, in this case */
+    align-items: center;
+    color: #a3a3a3;
+    
+}
+
+.altaqwaa_madia li {
+
+    list-style: none;
+    display: block;
+    width: calc(80% / 4);
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 5px 26px 0px rgba(0, 0, 0, 0.041);
+    border-radius: 10px;
+    background-color: #f0f0f0b6;
+    margin: 20px 20px 20px 20px;
+    word-wrap: break-word;
+    
+}
+
+.altaqwaa_madia img {
+    width: 350px;
+    height: auto;
+    max-width: 100%;
+    padding: 2px;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    
+  }
+
+  .altaqwaa_madia video {
+    width: 350px;
+    height: auto;
+    max-width: 100%;
+    object-fit: fill;
+    padding: 2px;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  .massage_bot{
+    margin-top: 20px;
+    margin-bottom: 38px;
+    color: rgb(88, 88, 88);
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .altaqwaa_madia i {
+
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .altaqwaa_madia i:hover {
+
+    color: #ca5b1f;
+  }
+  
+  #home_p{
+    margin-top: 100px;
+    font-weight: bold;
+    color: #ca5b1f;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.html_media{
+
+    padding: 10px;
+    box-shadow: 0px 5px 26px 0px rgba(0, 0, 0, 0.041);
+    border-radius: 10px;
+    background-color: #f0f0f0b6;
+    margin-left: 50px;
+    margin-right: 50px;
+    word-wrap: break-word;
+
+}
+
+.html_media img {
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.html_media video {
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+}
+#massage_bot2 {
+    margin-top: 30px;
+    margin-bottom: 38px;
+    color: rgb(117, 117, 117);
+    font-size: 15px;
+    font-weight: bold;
+
+}
+#massage_bot2 i{
+    margin-top: 30px;
+    margin-bottom: 38px;
+    color: rgb(117, 117, 117);
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+#massage_bot2 i:hover{
+    color: #ca5b1f;
+}
+
+#e404{
+    font-size: 170px;
+    color: #ca5b1f;
+    text-shadow: 2px 1px 15px rgba(0, 0, 0, 0.247);
+    font-family: 'Droid Arabic Kufi';
+}
+
+.Error h4{
+    color: #ca5b1f;
+    font-family: 'Droid Arabic Kufi';
+    margin-bottom: 20px;
+}
+
+#Error{
+    font-size: 15px;
+    color: #666666;
+    font-family: 'Droid Arabic Kufi';
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+
+
+/* footer */
+/*---------------------------------*/
+
+.footer{
+    background-color: #f0f0f0;
+    margin: 0px 0px 0px 0px;
+    height: 250px;
+    padding: 30px;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.fot-div-menu {
+
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+}
+.fot-menu{
+    
+    display: flex;
+    flex-wrap:wrap;
+    float:right;
+    list-style: none;
+    margin-top: 30px;
+
+}
+
+.fot-menu li{
+
+    margin: 0px 0px 0px 20px;
+    
+}
+
+.fot-menu a {
+
+    text-decoration: none;
+    color: #7B726D;
+
+}
+
+.fot-menu a:hover {
+
+    color: #4b4340;
+
+}
+
+.go-top {
+
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  z-index: 99;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  background-color: #7B726D;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.go-top:hover{
+
+    background-color: #555;
+}
+
+
+.desing{
+    text-align: center;
+    font-size: 11px;
+    color: rgb(151, 151, 151);
+    margin: 10px 0px 0px 0px;
+}
+
+.Social-Media{
+
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+}
+
+.Social-Media a {
+
+    text-align: center;
+    margin: 0px 20px 0px 20px;
+    font-size: 25px;
+    color: #a3a3a3;
+}
+
+.Social-Media a:hover {
+    
+    color: #7B726D;
+}
+
+
+/* phone */
+/*---------------------------------*/
+
+@media (max-width: 820px) {
+
+    .load{
+        background-size: 40%;
+      }
+
+    .header {
+        height: 100px;
+    }
+    .logo img {
+        float: none;
+        margin: 10px 0px 0px 40px;
+    }
+    .menu a {
+        color: rgb(0, 0, 0);
+    }
+    .menu {
+        display: none;
+    }
+    .mobile {
+        display: block;
+        float: right;
+    }
+
+    .quran p{
+        margin: 10px 10px 10px 10px;
+    }
+
+    .quran {
+
+        margin: 20px 20px 20px 20px;
+    
+    }
+
+    .quran h1{
+        margin: 60px 20px 60px 20px;
+    }
+
+    .quran_info {
+
+        margin: 20px 20px 20px 20px;
+    
+    }
+
+    .quran_pdf ul{
+        display: block;
+
+    }
+    .quran_pdf li{
+        display: block;
+        width:auto;
+        margin: 40px 20px 20px 20px;
+    }
+    .altaqwaa_madia{
+        display: block;
+
+    }
+    .altaqwaa_madia li{
+        display: block;
+        width:auto;
+        margin: 40px 40px 40px 40px;
+    }
+
+    .altaqwaa_madia img {
+        width: 650px;
+        padding: 2px;
+        margin: 0;
+    }
+    .altaqwaa_madia video {
+        width: 650px;
+        padding: 2px;
+        margin: 0;
+    }
+    .fot-menu li{
+        margin: 25px 0px 0px 8px;
+    }
+
+
+.index li {
+    width: calc(60% / 1);
+    margin: 20px 0px 0px 0px;
+    box-shadow: 0px 5px 26px 0px rgba(0, 0, 0, 0.034);
+    
+  }
+
+  .index button {
+    margin: 20px 0px 0px 0px;
+    
+  }
+
+}
