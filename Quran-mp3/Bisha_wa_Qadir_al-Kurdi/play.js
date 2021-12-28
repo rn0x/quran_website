@@ -50,45 +50,6 @@ document.getElementById("p4").addEventListener("click", function () {
   }
 });
 
-document.getElementById("p5").addEventListener("click", function () {
-  var audio = document.getElementById('q5');
-  if (this.className == 'is-playing') {
-    this.className = "";
-    this.innerHTML = "<i class='fas fa-play'></i>"
-    audio.pause();
-  } else {
-    this.className = "is-playing";
-    this.innerHTML = "<i class='fas fa-pause'></i>";
-    audio.play();
-  }
-});
-
-document.getElementById("p6").addEventListener("click", function () {
-  var audio = document.getElementById('q6');
-  if (this.className == 'is-playing') {
-    this.className = "";
-    this.innerHTML = "<i class='fas fa-play'></i>"
-    audio.pause();
-  } else {
-    this.className = "is-playing";
-    this.innerHTML = "<i class='fas fa-pause'></i>";
-    audio.play();
-  }
-});
-
-document.getElementById("p7").addEventListener("click", function () {
-  var audio = document.getElementById('q7');
-  if (this.className == 'is-playing') {
-    this.className = "";
-    this.innerHTML = "<i class='fas fa-play'></i>"
-    audio.pause();
-  } else {
-    this.className = "is-playing";
-    this.innerHTML = "<i class='fas fa-pause'></i>";
-    audio.play();
-  }
-});
-
 document.getElementById("p8").addEventListener("click", function () {
   var audio = document.getElementById('q8');
   if (this.className == 'is-playing') {
@@ -102,34 +63,8 @@ document.getElementById("p8").addEventListener("click", function () {
   }
 });
 
-document.getElementById("p9").addEventListener("click", function () {
-  var audio = document.getElementById('q9');
-  if (this.className == 'is-playing') {
-    this.className = "";
-    this.innerHTML = "<i class='fas fa-play'></i>"
-    audio.pause();
-  } else {
-    this.className = "is-playing";
-    this.innerHTML = "<i class='fas fa-pause'></i>";
-    audio.play();
-  }
-});
-
 document.getElementById("p10").addEventListener("click", function () {
   var audio = document.getElementById('q10');
-  if (this.className == 'is-playing') {
-    this.className = "";
-    this.innerHTML = "<i class='fas fa-play'></i>"
-    audio.pause();
-  } else {
-    this.className = "is-playing";
-    this.innerHTML = "<i class='fas fa-pause'></i>";
-    audio.play();
-  }
-});
-
-document.getElementById("p11").addEventListener("click", function () {
-  var audio = document.getElementById('q11');
   if (this.className == 'is-playing') {
     this.className = "";
     this.innerHTML = "<i class='fas fa-play'></i>"
@@ -271,47 +206,8 @@ document.getElementById("p21").addEventListener("click", function () {
   }
 });
 
-document.getElementById("p22").addEventListener("click", function () {
-  var audio = document.getElementById('q22');
-  if (this.className == 'is-playing') {
-    this.className = "";
-    this.innerHTML = "<i class='fas fa-play'></i>"
-    audio.pause();
-  } else {
-    this.className = "is-playing";
-    this.innerHTML = "<i class='fas fa-pause'></i>";
-    audio.play();
-  }
-});
-
 document.getElementById("p23").addEventListener("click", function () {
   var audio = document.getElementById('q23');
-  if (this.className == 'is-playing') {
-    this.className = "";
-    this.innerHTML = "<i class='fas fa-play'></i>"
-    audio.pause();
-  } else {
-    this.className = "is-playing";
-    this.innerHTML = "<i class='fas fa-pause'></i>";
-    audio.play();
-  }
-});
-
-document.getElementById("p24").addEventListener("click", function () {
-  var audio = document.getElementById('q24');
-  if (this.className == 'is-playing') {
-    this.className = "";
-    this.innerHTML = "<i class='fas fa-play'></i>"
-    audio.pause();
-  } else {
-    this.className = "is-playing";
-    this.innerHTML = "<i class='fas fa-pause'></i>";
-    audio.play();
-  }
-});
-
-document.getElementById("p25").addEventListener("click", function () {
-  var audio = document.getElementById('q25');
   if (this.className == 'is-playing') {
     this.className = "";
     this.innerHTML = "<i class='fas fa-play'></i>"
@@ -414,45 +310,6 @@ document.getElementById("p32").addEventListener("click", function () {
   }
 });
 
-document.getElementById("p33").addEventListener("click", function () {
-  var audio = document.getElementById('q33');
-  if (this.className == 'is-playing') {
-    this.className = "";
-    this.innerHTML = "<i class='fas fa-play'></i>"
-    audio.pause();
-  } else {
-    this.className = "is-playing";
-    this.innerHTML = "<i class='fas fa-pause'></i>";
-    audio.play();
-  }
-});
-
-document.getElementById("p34").addEventListener("click", function () {
-  var audio = document.getElementById('q34');
-  if (this.className == 'is-playing') {
-    this.className = "";
-    this.innerHTML = "<i class='fas fa-play'></i>"
-    audio.pause();
-  } else {
-    this.className = "is-playing";
-    this.innerHTML = "<i class='fas fa-pause'></i>";
-    audio.play();
-  }
-});
-
-document.getElementById("p35").addEventListener("click", function () {
-  var audio = document.getElementById('q35');
-  if (this.className == 'is-playing') {
-    this.className = "";
-    this.innerHTML = "<i class='fas fa-play'></i>"
-    audio.pause();
-  } else {
-    this.className = "is-playing";
-    this.innerHTML = "<i class='fas fa-pause'></i>";
-    audio.play();
-  }
-});
-
 document.getElementById("p36").addEventListener("click", function () {
   var audio = document.getElementById('q36');
   if (this.className == 'is-playing') {
@@ -492,60 +349,8 @@ document.getElementById("p38").addEventListener("click", function () {
   }
 });
 
-document.getElementById("p39").addEventListener("click", function () {
-  var audio = document.getElementById('q39');
-  if (this.className == 'is-playing') {
-    this.className = "";
-    this.innerHTML = "<i class='fas fa-play'></i>"
-    audio.pause();
-  } else {
-    this.className = "is-playing";
-    this.innerHTML = "<i class='fas fa-pause'></i>";
-    audio.play();
-  }
-});
-
-document.getElementById("p40").addEventListener("click", function () {
-  var audio = document.getElementById('q40');
-  if (this.className == 'is-playing') {
-    this.className = "";
-    this.innerHTML = "<i class='fas fa-play'></i>"
-    audio.pause();
-  } else {
-    this.className = "is-playing";
-    this.innerHTML = "<i class='fas fa-pause'></i>";
-    audio.play();
-  }
-});
-
 document.getElementById("p41").addEventListener("click", function () {
   var audio = document.getElementById('q41');
-  if (this.className == 'is-playing') {
-    this.className = "";
-    this.innerHTML = "<i class='fas fa-play'></i>"
-    audio.pause();
-  } else {
-    this.className = "is-playing";
-    this.innerHTML = "<i class='fas fa-pause'></i>";
-    audio.play();
-  }
-});
-
-document.getElementById("p42").addEventListener("click", function () {
-  var audio = document.getElementById('q42');
-  if (this.className == 'is-playing') {
-    this.className = "";
-    this.innerHTML = "<i class='fas fa-play'></i>"
-    audio.pause();
-  } else {
-    this.className = "is-playing";
-    this.innerHTML = "<i class='fas fa-pause'></i>";
-    audio.play();
-  }
-});
-
-document.getElementById("p43").addEventListener("click", function () {
-  var audio = document.getElementById('q43');
   if (this.className == 'is-playing') {
     this.className = "";
     this.innerHTML = "<i class='fas fa-play'></i>"

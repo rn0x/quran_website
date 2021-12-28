@@ -297,19 +297,6 @@ document.getElementById("p23").addEventListener("click", function () {
   }
 });
 
-document.getElementById("p24").addEventListener("click", function () {
-  var audio = document.getElementById('q24');
-  if (this.className == 'is-playing') {
-    this.className = "";
-    this.innerHTML = "<i class='fas fa-play'></i>"
-    audio.pause();
-  } else {
-    this.className = "is-playing";
-    this.innerHTML = "<i class='fas fa-pause'></i>";
-    audio.play();
-  }
-});
-
 document.getElementById("p25").addEventListener("click", function () {
   var audio = document.getElementById('q25');
   if (this.className == 'is-playing') {
@@ -674,19 +661,6 @@ document.getElementById("p52").addEventListener("click", function () {
   }
 });
 
-document.getElementById("p53").addEventListener("click", function () {
-  var audio = document.getElementById('q53');
-  if (this.className == 'is-playing') {
-    this.className = "";
-    this.innerHTML = "<i class='fas fa-play'></i>"
-    audio.pause();
-  } else {
-    this.className = "is-playing";
-    this.innerHTML = "<i class='fas fa-pause'></i>";
-    audio.play();
-  }
-});
-
 document.getElementById("p54").addEventListener("click", function () {
   var audio = document.getElementById('q54');
   if (this.className == 'is-playing') {
@@ -949,32 +923,6 @@ document.getElementById("p73").addEventListener("click", function () {
 
 document.getElementById("p74").addEventListener("click", function () {
   var audio = document.getElementById('q74');
-  if (this.className == 'is-playing') {
-    this.className = "";
-    this.innerHTML = "<i class='fas fa-play'></i>"
-    audio.pause();
-  } else {
-    this.className = "is-playing";
-    this.innerHTML = "<i class='fas fa-pause'></i>";
-    audio.play();
-  }
-});
-
-document.getElementById("p75").addEventListener("click", function () {
-  var audio = document.getElementById('q75');
-  if (this.className == 'is-playing') {
-    this.className = "";
-    this.innerHTML = "<i class='fas fa-play'></i>"
-    audio.pause();
-  } else {
-    this.className = "is-playing";
-    this.innerHTML = "<i class='fas fa-pause'></i>";
-    audio.play();
-  }
-});
-
-document.getElementById("p76").addEventListener("click", function () {
-  var audio = document.getElementById('q76');
   if (this.className == 'is-playing') {
     this.className = "";
     this.innerHTML = "<i class='fas fa-play'></i>"

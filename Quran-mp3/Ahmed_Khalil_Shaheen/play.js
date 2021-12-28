@@ -791,19 +791,6 @@ document.getElementById("p61").addEventListener("click", function () {
   }
 });
 
-document.getElementById("p62").addEventListener("click", function () {
-  var audio = document.getElementById('q62');
-  if (this.className == 'is-playing') {
-    this.className = "";
-    this.innerHTML = "<i class='fas fa-play'></i>"
-    audio.pause();
-  } else {
-    this.className = "is-playing";
-    this.innerHTML = "<i class='fas fa-pause'></i>";
-    audio.play();
-  }
-});
-
 document.getElementById("p63").addEventListener("click", function () {
   var audio = document.getElementById('q63');
   if (this.className == 'is-playing') {
@@ -1365,19 +1352,6 @@ document.getElementById("p105").addEventListener("click", function () {
 
 document.getElementById("p106").addEventListener("click", function () {
   var audio = document.getElementById('q106');
-  if (this.className == 'is-playing') {
-    this.className = "";
-    this.innerHTML = "<i class='fas fa-play'></i>"
-    audio.pause();
-  } else {
-    this.className = "is-playing";
-    this.innerHTML = "<i class='fas fa-pause'></i>";
-    audio.play();
-  }
-});
-
-document.getElementById("p107").addEventListener("click", function () {
-  var audio = document.getElementById('q107');
   if (this.className == 'is-playing') {
     this.className = "";
     this.innerHTML = "<i class='fas fa-play'></i>"

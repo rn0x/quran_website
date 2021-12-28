@@ -973,19 +973,6 @@ document.getElementById("p75").addEventListener("click", function () {
   }
 });
 
-document.getElementById("p76").addEventListener("click", function () {
-  var audio = document.getElementById('q76');
-  if (this.className == 'is-playing') {
-    this.className = "";
-    this.innerHTML = "<i class='fas fa-play'></i>"
-    audio.pause();
-  } else {
-    this.className = "is-playing";
-    this.innerHTML = "<i class='fas fa-pause'></i>";
-    audio.play();
-  }
-});
-
 document.getElementById("p77").addEventListener("click", function () {
   var audio = document.getElementById('q77');
   if (this.className == 'is-playing') {

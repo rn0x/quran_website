@@ -401,19 +401,6 @@ document.getElementById("p31").addEventListener("click", function () {
   }
 });
 
-document.getElementById("p32").addEventListener("click", function () {
-  var audio = document.getElementById('q32');
-  if (this.className == 'is-playing') {
-    this.className = "";
-    this.innerHTML = "<i class='fas fa-play'></i>"
-    audio.pause();
-  } else {
-    this.className = "is-playing";
-    this.innerHTML = "<i class='fas fa-pause'></i>";
-    audio.play();
-  }
-});
-
 document.getElementById("p33").addEventListener("click", function () {
   var audio = document.getElementById('q33');
   if (this.className == 'is-playing') {
@@ -442,19 +429,6 @@ document.getElementById("p34").addEventListener("click", function () {
 
 document.getElementById("p35").addEventListener("click", function () {
   var audio = document.getElementById('q35');
-  if (this.className == 'is-playing') {
-    this.className = "";
-    this.innerHTML = "<i class='fas fa-play'></i>"
-    audio.pause();
-  } else {
-    this.className = "is-playing";
-    this.innerHTML = "<i class='fas fa-pause'></i>";
-    audio.play();
-  }
-});
-
-document.getElementById("p36").addEventListener("click", function () {
-  var audio = document.getElementById('q36');
   if (this.className == 'is-playing') {
     this.className = "";
     this.innerHTML = "<i class='fas fa-play'></i>"
@@ -1196,19 +1170,6 @@ document.getElementById("p92").addEventListener("click", function () {
 
 document.getElementById("p93").addEventListener("click", function () {
   var audio = document.getElementById('q93');
-  if (this.className == 'is-playing') {
-    this.className = "";
-    this.innerHTML = "<i class='fas fa-play'></i>"
-    audio.pause();
-  } else {
-    this.className = "is-playing";
-    this.innerHTML = "<i class='fas fa-pause'></i>";
-    audio.play();
-  }
-});
-
-document.getElementById("p94").addEventListener("click", function () {
-  var audio = document.getElementById('q94');
   if (this.className == 'is-playing') {
     this.className = "";
     this.innerHTML = "<i class='fas fa-play'></i>"
