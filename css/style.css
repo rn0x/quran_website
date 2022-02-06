@@ -73,12 +73,14 @@ h1 {
 }
 
 .menu a:hover {
-    color: #DFCDCC;
+    color: #cfc4bc;
+    background-color: #7B726D;
 }
 
 .dropdown-menu a:link {
-    color: #7B726D;
+    color: #4e4743;
     background-color: #ffffff;
+    
 }
 
 .dropdown-menu a:link:hover {
@@ -100,7 +102,17 @@ h1 {
     box-shadow: 0px 5px 26px 0px rgba(0, 0, 0, 0.041);
     margin: 25px 30px 0px 0px;
     color: #ffffff;
+    
 }
+
+#dropdown-menu {
+
+    max-width: 100%;
+    width: 500px;
+    margin-top: 80%;
+    text-align: center;
+}
+
 
 
 /* body */
