@@ -50,10 +50,10 @@ const BookCard = ({ title, fileSize, format, bgColor, publicationYear, pdfLink, 
                 priority // Use priority if the image is above the fold
             /> : null}
             <h2 className={styles.title} title={title} aria-label={title}>{title}</h2>
-            <p className={styles.details} title={format} aria-label={format}>صيغة الملف: {format}</p>
-            <p className={styles.details} title={fileSize} aria-label={fileSize}>حجم الملف: {fileSize}</p>
-            <p className={styles.details} title={publicationYear} aria-label={publicationYear}>عام الطباعة: {publicationYear}</p>
-            <p className={styles.details} title={bgColor} aria-label={bgColor}>لون الخلفية: {bgColor}</p>
+            <p className={styles.details} title={format} aria-label={format}>صيغة الملف: <span>{format}</span></p>
+            <p className={styles.details} title={fileSize} aria-label={fileSize}>حجم الملف: <span>{fileSize}</span></p>
+            <p className={styles.details} title={publicationYear} aria-label={publicationYear}>عام الطباعة: <span>{publicationYear}</span></p>
+            <p className={styles.details} title={bgColor} aria-label={bgColor}>لون الخلفية: <span>{bgColor}</span></p>
             <Link href={pdfLink} target="_blank" className={styles.downloadButton} title={`تحميل ${title}`} aria-label={`تحميل ${title}`}>
                 تحميل الملف
             </Link>

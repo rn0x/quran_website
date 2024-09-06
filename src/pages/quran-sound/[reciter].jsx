@@ -34,7 +34,7 @@ export default function ReciterPage() {
                 <p className={styles.errorMessage}>
                     لم نتمكن من العثور على القارئ الذي تبحث عنه. يرجى التحقق من الرابط والتأكد من صحة الاسم.
                 </p>
-                <button onClick={() => router.push('/quran_sound')} className={styles.backButton}>
+                <button onClick={() => router.push('/quran-sound')} className={styles.backButton}>
                     رجوع إلى قائمة المقرئين
                 </button>
             </main>
@@ -47,7 +47,7 @@ export default function ReciterPage() {
     };
 
     const handleBack = () => {
-        router.push('/quran_sound');
+        router.push('/quran-sound');
     };
 
     const handleClosePlayer = () => {
@@ -92,7 +92,7 @@ export default function ReciterPage() {
             <SeoHead
                 title={`${selectedReciterData?.reciter.ar} - استمع لتلاوة القرآن الكريم بصوت ${selectedReciterData?.reciter.ar}`}
                 description={`استمع للقرآن الكريم كاملاً بصوت ${selectedReciterData?.reciter.ar} (${selectedReciterData?.reciter.en}) برواية ${selectedReciterData?.rewaya.ar}. استمتع بتلاوة عالية الجودة مع إمكانية التنقل بين السور.`}
-                url={`${process.env.NEXT_PUBLIC_BASE_URL}/quran_sound/${reciter}`}
+                url={`${process.env.NEXT_PUBLIC_BASE_URL}/quran-sound/${reciter}`}
                 image={`${process.env.NEXT_PUBLIC_BASE_URL}/images/quran-reciter-image.jpg`}
                 keywords={`القرآن الكريم, تلاوة القرآن, ${selectedReciterData?.reciter.ar}, ${selectedReciterData?.reciter.en}, مشاهير القراء, رواية ${selectedReciterData?.rewaya.ar}, تحميل القرآن mp3, استماع القرآن, تلاوات قرآنية`}
             />

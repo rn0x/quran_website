@@ -1,7 +1,7 @@
 // pages/about.jsx
 import SeoHead from '../components/SeoHead';
 import styles from '../styles/About.module.css';
-import { FaInfoCircle, FaHome, FaDonate } from 'react-icons/fa';
+import { FaInfoCircle, FaHome, FaEnvelope } from 'react-icons/fa';
 
 export default function About() {
   return (
@@ -15,7 +15,7 @@ export default function About() {
       />
       <main className={styles.container}>
         <section className={styles.section}>
-          <h1 className={styles.title}><FaHome className={styles.titleIcon} title='من نحن' aria-label='من نحن'/> من نحن</h1>
+          <h1 className={styles.title}><FaHome className={styles.titleIcon} title='من نحن' aria-label='من نحن' /> من نحن</h1>
           <p className={styles.paragraph} title='موقع القرآن الكريم يهدف إلى تقديم محتوى شامل ومتقدم يخص القرآن الكريم' aria-label='موقع القرآن الكريم يهدف إلى تقديم محتوى شامل ومتقدم يخص القرآن الكريم'>
             موقع القرآن الكريم يهدف إلى تقديم محتوى شامل ومتقدم يخص القرآن الكريم، بما في ذلك فهرس القرآن،
             ملفات PDF و MP3، وصفحات للقراء. نعمل على توفير تجربة متميزة للمستخدمين وتسهيل الوصول إلى المحتوى القرآني.
@@ -30,18 +30,22 @@ export default function About() {
         </section>
 
         <section className={styles.section}>
-          <h2 className={styles.title}><FaDonate className={styles.titleIcon} title='الدعم' aria-label='الدعم' /> الدعم</h2>
-          <p className={styles.paragraph} title='يمكنكم دعم تطوير الموقع وتحسين خدماته عبر التبرع من خلال PayPal.' aria-label='يمكنكم دعم تطوير الموقع وتحسين خدماته عبر التبرع من خلال PayPal.'>
-            يمكنكم دعم تطوير الموقع وتحسين خدماته عبر التبرع من خلال PayPal.
-            كل تبرع يسهم في تطوير بنية الموقع الأساسية وتعزيز التجربة المقدمة.
+          <h2 className={styles.title}><FaEnvelope className={styles.titleIcon} title='التواصل' aria-label='التواصل' /> التواصل</h2>
+          <p className={styles.paragraph} title='يمكنكم التواصل معنا عبر البريد الإلكتروني أو تيليجرام أو GitHub لأي استفسارات.' aria-label='يمكنكم التواصل معنا عبر البريد الإلكتروني أو تيليجرام أو GitHub لأي استفسارات.'>
+            يمكنكم التواصل معنا عبر البريد الإلكتروني أو تيليجرام أو GitHub لأي استفسارات أو ملاحظات.
           </p>
-          <p>
-            تبرع عبر PayPal: <a href="https://paypal.me/i8xTeam?country.x=SA&locale.x=ar_EG" target="_blank" rel="noopener noreferrer" className={styles.link} title='تبرع هنا' aria-label='تبرع هنا'>تبرع هنا</a>
+          <p title='تواصل عبر البريد الإلكتروني [rn0x.me@gmail.com].' aria-label='تواصل عبر البريد الإلكتروني [rn0x.me@gmail.com].'>
+            تواصل عبر البريد الإلكتروني: <a href="mailto:rn0x.me@gmail.com" className={styles.link} title='تواصل هنا' aria-label='تواصل هنا'>rn0x.me@gmail.com</a>
           </p>
-          <p title='يمكنكم أيضًا التواصل معنا عبر البريد الإلكتروني [rn0x.me@gmail.com] لأي استفسارات.' aria-label='يمكنكم أيضًا التواصل معنا عبر البريد الإلكتروني [rn0x.me@gmail.com] لأي استفسارات.'>
-            يمكنكم أيضًا التواصل معنا عبر البريد الإلكتروني [rn0x.me@gmail.com] لأي استفسارات.
+          <p title='تواصل عبر تيليجرام [f93ii].' aria-label='تواصل عبر تيليجرام [f93ii].'>
+            تواصل عبر تيليجرام: <a href="https://t.me/f93ii" target="_blank" rel="noopener noreferrer" className={styles.link} title='تواصل عبر تيليجرام' aria-label='تواصل عبر تيليجرام'>@f93ii</a>
+          </p>
+          <p title='تواصل عبر GitHub [rn0x].' aria-label='تواصل عبر GitHub [rn0x].'>
+            تواصل عبر GitHub: <a href="https://github.com/rn0x" target="_blank" rel="noopener noreferrer" className={styles.link} title='تواصل عبر GitHub' aria-label='تواصل عبر GitHub'>@rn0x</a>
           </p>
         </section>
+
+
       </main>
     </>
   );

@@ -2,6 +2,9 @@
 const nextConfig = {
     // استخدام standalone أو export بناءً على احتياجاتك
     output: 'export', // أو 'export' إذا كنت تقوم بإنشاء موقع ثابت
+    trailingSlash: true,
+    skipTrailingSlashRedirect: true,
+    distDir: 'build',
     images: {
         unoptimized: true,
     },
@@ -16,11 +19,11 @@ const nextConfig = {
      */
     async redirects() {
         return [
-            // {
-            //     source: '/Quran_pdf/index.html',
-            //     destination: '/quran_pdf',
-            //     permanent: true, 
-            // }
+            {
+                source: '/Quran_pdf/index.html',
+                destination: '/quran-pdf',
+                permanent: true, 
+            }
         ];
     },
 };

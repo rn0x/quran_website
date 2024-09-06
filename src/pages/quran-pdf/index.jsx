@@ -13,7 +13,7 @@ const QuranPdfPage = () => {
       fileSize: "160 MB",
       publicationYear: "1429 للهجرة",
       pdfLink: "https://archive.org/download/Quran-Kareem-Khawagah-The-Blue-Page-Quran/Quran-Kareem-Khawagah-The-Blue-Page-Quran.pdf",
-      pdfImage: "/images/001.jpg",
+      pdfImage: "/images/001.webp",
       bgColor:"أزرق",
     },
     {
@@ -23,7 +23,7 @@ const QuranPdfPage = () => {
       fileSize: "158 MB",
       publicationYear: "1429 للهجرة",
       pdfLink: "https://archive.org/download/EQuran00001/E-Quran-00001.pdf",
-      pdfImage: "/images/002.jpg",
+      pdfImage: "/images/002.webp",
       bgColor:"أخضر",
     },
     {
@@ -33,7 +33,7 @@ const QuranPdfPage = () => {
       fileSize: "93 MB",
       publicationYear: "1427 للهجرة",
       pdfLink: "hhttps://archive.org/download/arabic-568335686835685363568q3an1/arabic-quran2.pdf",
-      pdfImage: "/images/003.jpg",
+      pdfImage: "/images/003.webp",
       bgColor:"أزرق",
     },
     {
@@ -43,7 +43,7 @@ const QuranPdfPage = () => {
       fileSize: "192 MB",
       publicationYear: "1420 للهجرة",
       pdfLink: "https://archive.org/download/bensaoud_gmail_20170308_0721/%D9%85%D8%B5%D8%AD%D9%81%20%D8%A7%D9%84%D8%AA%D8%AC%D9%88%D9%8A%D8%AF%20%D8%A7%D9%84%D9%85%D9%84%D9%88%D9%86.pdf",
-      pdfImage: "/images/004.jpg",
+      pdfImage: "/images/004.webp",
       bgColor:"ملونة",
     },
     {
@@ -53,7 +53,7 @@ const QuranPdfPage = () => {
       fileSize: "146 MB",
       publicationYear: "1428 للهجرة",
       pdfLink: "https://archive.org/download/WARSHMADINAHE/WARSH__MADINAH.pdf",
-      pdfImage: "/images/005.jpg",
+      pdfImage: "/images/005.webp",
       bgColor:"أبيض",
     },
     {
@@ -63,7 +63,7 @@ const QuranPdfPage = () => {
       fileSize: "154 MB",
       publicationYear: "1431 للهجرة",
       pdfLink: "https://archive.org/download/0471Pdf_201804/0471%20%20%D9%83%D8%AA%D8%A7%D8%A8%20%D8%A7%D9%82%D8%B1%D8%A7%20%20%D8%A7%D9%88%D9%86%D9%84%D8%A7%D9%8A%D9%86%20%20%20%20%20pdf%20%20%20%20%20%D9%85%D8%B5%D8%AD%D9%81%20%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9%20%D8%A7%D9%84%D9%86%D8%A8%D9%88%D9%8A%D8%A9%20%D8%A8%D8%B1%D9%88%D8%A7%D9%8A%D8%A9%20%D9%82%D8%A7%D9%84%D9%88%D9%86%20%D8%B9%D9%86%20%D9%86%D8%A7%D9%81%D8%B9.pdf",
-      pdfImage: "/images/006.jpg",
+      pdfImage: "/images/006.webp",
       bgColor:"أبيض",
     },
     {
@@ -73,7 +73,7 @@ const QuranPdfPage = () => {
       fileSize: "4 MB",
       publicationYear: "غير معروف",
       pdfLink: "https://archive.org/download/EQuran00003/E-Quran-00003.pdf",
-      pdfImage: "/images/007.jpg",
+      pdfImage: "/images/007.webp",
       bgColor:"أبيض",
     },
     {
@@ -83,7 +83,7 @@ const QuranPdfPage = () => {
       fileSize: "395 MB",
       publicationYear: "1420 للهجرة",
       pdfLink: "https://archive.org/download/Quran25/Quran25.pdf",
-      pdfImage: "/images/008.jpg",
+      pdfImage: "/images/008.webp",
       bgColor:"ملونة",
     },
     {
@@ -93,7 +93,7 @@ const QuranPdfPage = () => {
       fileSize: "485 MB",
       publicationYear: "1428 للهجرة",
       pdfLink: "https://archive.org/download/Quran_Tafseel-Mawdo/Quran_Tafseel-Mawdo.pdf",
-      pdfImage: "/images/009.jpg",
+      pdfImage: "/images/009.webp",
       bgColor:"ملونة",
     },
     {
@@ -103,7 +103,7 @@ const QuranPdfPage = () => {
       fileSize: "83 MB",
       publicationYear: "غير معروف",
       pdfLink: "https://archive.org/download/alquran16linescolourtajwidiwithcontents/Al%20Quran%20-%2016%20Lines%20Colour%20Tajwidi%20%28With%20Contents%29.pdf",
-      pdfImage: "/images/010.jpg",
+      pdfImage: "/images/010.webp",
       bgColor:"ملونة",
     },
   ]

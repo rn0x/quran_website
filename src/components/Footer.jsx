@@ -20,13 +20,13 @@ export default function Footer() {
           <Link href="/quran-pdf" title='القرآن الكريم PDF' aria-label="تحميل القرآن الكريم بصيغة PDF" className={styles.link}>
             القرآن الكريم PDF
           </Link>
-          <Link href="/quran-mp3" title='القرآن الكريم MP3' aria-label="تحميل القرآن الكريم بصيغة MP3" className={styles.link}>
+          <Link href="/quran-sound" title='القرآن الكريم MP3' aria-label="تحميل القرآن الكريم بصيغة MP3" className={styles.link}>
             القرآن الكريم MP3
           </Link>
           <Link href="/about" aria-label="معلومات عن الموقع" className={styles.link}>
             عن الموقع
           </Link>
-          <Link href="https://t.me/KanzislamNet" target='__blank' aria-label="اتصل بنا" className={styles.link}>
+          <Link href="https://t.me/f93ii" target='__blank' aria-label="اتصل بنا" className={styles.link}>
             اتصل بنا
           </Link>
         </div>

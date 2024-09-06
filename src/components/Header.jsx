@@ -49,18 +49,18 @@ export default function Header() {
       {/* قائمة سطح المكتب */}
       <nav className={`${styles.desktopNav}`}>
         <Link href="/" className={styles.navLink} title='الرئيسية' aria-label='الرئيسية'>الرئيسية</Link>
-        <Link href="/quran_sound" className={styles.navLink} title='القرآن الكريم MP3' aria-label='القرآن الكريم MP3'>القرآن الكريم MP3</Link>
-        <Link href="/quran_pdf" className={styles.navLink} title='القرآن الكريم PDF' aria-label='القرآن الكريم PDF'>القرآن الكريم PDF</Link>
+        <Link href="/quran-sound" className={styles.navLink} title='القرآن الكريم MP3' aria-label='القرآن الكريم MP3'>القرآن الكريم MP3</Link>
+        <Link href="/quran-pdf" className={styles.navLink} title='القرآن الكريم PDF' aria-label='القرآن الكريم PDF'>القرآن الكريم PDF</Link>
       </nav>
 
       {/* قائمة الجوال */}
       <nav className={`${styles.mobileNav} ${isMenuOpen ? styles.navOpen : ''}`}>
         <Link href="/" className={styles.navLink} onClick={closeMenu} title='الرئيسية' aria-label='الرئيسية'>الرئيسية</Link>
-        <Link href="/quran_sound" className={styles.navLink} onClick={closeMenu} title='القرآن الكريم MP3' aria-label='القرآن الكريم MP3'>القرآن الكريم MP3</Link>
-        <Link href="/quran_pdf" className={styles.navLink} onClick={closeMenu} title='القرآن الكريم PDF' aria-label='القرآن الكريم PDF'>القرآن الكريم PDF</Link>
+        <Link href="/quran-sound" className={styles.navLink} onClick={closeMenu} title='القرآن الكريم MP3' aria-label='القرآن الكريم MP3'>القرآن الكريم MP3</Link>
+        <Link href="/quran-pdf" className={styles.navLink} onClick={closeMenu} title='القرآن الكريم PDF' aria-label='القرآن الكريم PDF'>القرآن الكريم PDF</Link>
       </nav>
 
-      <button className={styles.menuButton} onClick={toggleMenu}>
+      <button className={styles.menuButton} onClick={toggleMenu} title='فتح القائمة' aria-label='open-menu'>
         {isMenuOpen ? <FaTimes /> : <FaBars />}
       </button>
     </header>

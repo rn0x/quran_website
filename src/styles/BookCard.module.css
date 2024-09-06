@@ -25,6 +25,9 @@
   margin-bottom: 4px;
   color: var(--text-color-2);
 }
+.details span {
+  color: var(--primary-color);
+}
 
 .downloadButton {
   display: inline-block;
@@ -44,7 +47,6 @@
   color: var(--button-hover-text-color);
 }
 
-
 .image {
   width: 90%;
   height: auto;
@@ -52,6 +54,6 @@
   display: block;
   background-color: rgb(15, 181, 181);
   border-radius: 20px;
-  object-fit:cover;
+  object-fit: cover;
   margin: 10px auto;
 }

@@ -1,18 +1,41 @@
-import React from 'react';
+// pages/index.js
+
+import React, { Suspense, lazy } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import SeoHead from '../components/SeoHead';
-import IconAlnuzul from '../components/IconAlnuzul';
 import styles from '../styles/Quran.module.css';
 import fs from 'fs';
 import path from 'path';
+
+// Lazy load IconAlnuzul
+const IconAlnuzul = lazy(() => import('../components/IconAlnuzul'));
+IconAlnuzul.displayName = 'IconAlnuzul';
+
+// تعريف مكون SurahItem وتعيين displayName
+const SurahItem = React.memo(({ surah }) => {
+    return (
+        <li className={styles.surahItem}>
+            <Link href={`/quran/${surah.number}`} className={styles.link} title={surah.name.ar} aria-label={surah.name.en}>
+                <div className={styles.surahName}><strong>{surah.name.ar}</strong> - {surah.name.en}</div>
+                <div className={styles.surahDetails}>
+                    <Suspense fallback={<span>Loading icon...</span>}>
+                        <span className={styles.revelationPlace} title={surah.revelation_place.ar}>
+                            <IconAlnuzul Alnuzul={surah.revelation_place.en} IconColor="#4DB6AC" />
+                        </span>
+                    </Suspense>
+                    <span className={styles.versesCount}>{surah.verses_count} آيات</span>
+                </div>
+            </Link>
+        </li>
+    );
+});
+SurahItem.displayName = 'SurahItem';
 
 export async function getStaticProps() {
     let surahs = [];
     let error = null;
 
     try {
-
         const filePath = path.join(process.cwd(), 'public', 'json', 'metadata.json');
         const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
         if (data) {
@@ -50,22 +73,11 @@ export default function Home({ surahs, error }) {
                 image={`${process.env.NEXT_PUBLIC_BASE_URL}/quran-image.jpg`}
                 keywords="فهرس سور القرآن الكريم, السور القرآنية, القرآن الكريم, تفاصيل السور, عدد الآيات, عدد الكلمات, عدد الحروف, معلومات قرآنية, دراسات قرآنية, تفسير القرآن, علم القرآن"
             />
-
             <main className={styles.main}>
                 <h1 className={styles.heading} title='فهرس سور القرآن الكريم' aria-label='فهرس سور القرآن الكريم'>فهرس سور القرآن الكريم</h1>
                 <ul className={styles.surahList}>
                     {surahs.map(surah => (
-                        <li key={surah.number} className={styles.surahItem}>
-                            <Link href={`/quran/${surah.number}`} className={styles.link} title={surah.name.ar} aria-label={surah.name.en}>
-                                <div className={styles.surahName}><strong>{surah.name.ar}</strong> - {surah.name.en}</div>
-                                <div className={styles.surahDetails}>
-                                    <span className={styles.revelationPlace} title={surah.revelation_place.ar} aria-label={surah.revelation_place.ar}>
-                                        <IconAlnuzul Alnuzul={surah.revelation_place.en} IconColor="#4DB6AC" />
-                                    </span>
-                                    <span className={styles.versesCount}>{surah.verses_count} آيات</span>
-                                </div>
-                            </Link>
-                        </li>
+                        <SurahItem key={surah.number} surah={surah} />
                     ))}
                 </ul>
             </main>

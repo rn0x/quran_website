@@ -21,8 +21,8 @@
 
 /* حقل البحث */
 .searchInput {
-  width: 100%;
-  max-width: 500px;
+  width: 70%;
+  max-width: 300px;
   padding: 12px;
   margin-bottom: 20px;
   font-size: 1.1rem;
@@ -42,7 +42,7 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  width: 100%;
+  width: 90%;
   max-width: 900px;
 }
 
@@ -57,7 +57,7 @@
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
   text-align: center;
-  color: #555;
+  color: #252525;
 }
 
 /* تفاصيل القارئ */
@@ -75,7 +75,7 @@
 
 .reciterNumber {
   font-size: 1rem;
-  color: #777;
+  color: var(--primary-color);
   margin-bottom: 5px;
 }
 
@@ -88,17 +88,31 @@
 
 .reciterInfo {
   font-size: 1.1rem;
-  color: #555;
+  color: var(--primary-color);
 }
 
 /* رسالة عدم وجود نتائج */
 .noResults {
   font-size: 1.1rem;
-  color: #888;
+  color: var(--primary-color);
   text-align: center;
   margin-top: 20px;
 }
 
 .Link {
   text-decoration: none;
+}
+
+.pagination button {
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  border: none;
+  color: var(--text-white);
+  margin: 0px 20px;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: var(--primary-color);
 }
