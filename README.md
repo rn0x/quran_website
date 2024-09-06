@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# موقع القرآن الكريم
 
-## Getting Started
+هذا مشروع **Next.js** تم إنشاؤه باستخدام [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-First, run the development server:
+## البدء
+
+لتشغيل خادم التطوير، استخدم الأمر التالي:
 
 ```bash
 npm run dev
-# or
+# أو
 yarn dev
-# or
+# أو
 pnpm dev
-# or
+# أو
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+افتح [http://localhost:3000](http://localhost:3000) في متصفحك لرؤية النتيجة.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## البناء والإصدار
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+لبناء المشروع للإصدار الإنتاجي، استخدم الأمر التالي:
 
-## Learn More
+```bash
+npm run build
+# أو
+yarn build
+# أو
+pnpm build
+# أو
+bun build
+```
 
-To learn more about Next.js, take a look at the following resources:
+بعد بناء المشروع، يمكنك تشغيله في وضع الإنتاج باستخدام الأمر:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm start
+# أو
+yarn start
+# أو
+pnpm start
+# أو
+bun start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## تعلم المزيد
 
-## Deploy on Vercel
+للتعرف على المزيد حول **Next.js**، اطلع على المصادر التالية:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [توثيق Next.js](https://nextjs.org/docs) - تعلم عن ميزات Next.js وواجهاته.
+- [تعلم Next.js](https://nextjs.org/learn) - دورة تفاعلية لتعلم Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+يمكنك الاطلاع على [مستودع Next.js على GitHub](https://github.com/vercel/next.js/) - تعليقاتك ومساهماتك مرحب بها!
+
+## النشر على Vercel
+
+أسهل طريقة لنشر تطبيق Next.js الخاص بك هي استخدام [منصة Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) من مطوري Next.js.
+
+راجع [توثيق نشر Next.js](https://nextjs.org/docs/deployment) للحصول على مزيد من التفاصيل.

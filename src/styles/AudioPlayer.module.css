@@ -1,0 +1,124 @@
+.audioPlayer {
+  width: 100%;
+  padding: 20px;
+  background-color: var(--card-bg-color);
+  border-top: 1px solid var(--border-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1000;
+}
+
+.error {
+  color: red;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.controlButton {
+  background: none;
+  border: none;
+  color: var(--secondary-color);
+  font-size: 24px;
+  cursor: pointer;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+
+  background-color:var(--box-color);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.controlButton span {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+.controlButton:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+.controlButton:hover:not(:disabled) {
+  color: var(--primary-color);
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  color: #dc3545;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.closeButton:hover {
+  color: #c82333;
+}
+
+.placeholder {
+  color: #666;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* استايل خاص بعنصر الصوت */
+.audioElement {
+  display: block;
+}
+
+/* معالجة للأجهزة الصغيرة */
+@media (max-width: 768px) {
+  .audioPlayer {
+    padding: 15px;
+  }
+
+  .controlButton {
+    font-size: 20px;
+    margin: 0 5px;
+  }
+
+  /* .controlButton span {
+    display: none;
+  } */
+
+  .closeButton {
+    font-size: 20px;
+    top: 5px;
+    right: 5px;
+  }
+
+  .audioElement {
+    display: none; /* إخفاء مشغل الصوت على الأجهزة الصغيرة */
+  }
+}
+
+@media (max-width: 330px) {
+  .controlButton span {
+    display: none;
+  }
+
+  .controlButton {
+    font-size: 18px;
+  }
+
+  .closeButton {
+    font-size: 18px;
+  }
+}

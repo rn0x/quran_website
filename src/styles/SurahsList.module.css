@@ -1,0 +1,209 @@
+.container {
+  padding: 1.5rem;
+  max-width: 1200px; /* تحسين العرض للشاشات الأكبر */
+  margin: 0 auto;
+}
+
+/* دعم للشاشات الكبيرة جدًا */
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1400px;
+  }
+
+  .surahItem {
+    padding: 1.5rem; /* زيادة المساحة حول العناصر */
+  }
+
+  .playButton {
+    padding: 0.75rem 1.5rem; /* تكبير الأزرار */
+    font-size: 1.1rem;
+  }
+}
+
+/* دعم للشاشات الصغيرة جدًا */
+@media (max-width: 320px) {
+  .container {
+    padding: 0.5rem;
+  }
+
+  .title {
+    font-size: 1.2rem; /* تقليص حجم العنوان */
+  }
+
+  .searchInput {
+    padding: 0.3rem;
+    font-size: 0.8rem; /* تقليل حجم النصوص */
+  }
+
+  .surahItem {
+    padding: 0.5rem;
+  }
+
+  .surahTitle {
+    font-size: 0.8rem;
+  }
+
+  .playButton {
+    padding: 0.2rem 0.5rem;
+    font-size: 0.7rem;
+  }
+}
+
+/* نظام شبكي (Grid) للشاشات الأكبر */
+@media (min-width: 1024px) {
+  .quranList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* عرض العناصر في شبكتين */
+    gap: 1rem;
+  }
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #2c3e50;
+  font-weight: 700;
+}
+
+.searchInput {
+  display: block;
+  width: 80%;
+  padding: 0.75rem;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: var(--input-bg-color);
+  transition: border-color 0.3s ease;
+  margin: 10px auto;
+}
+
+.searchInput:focus {
+  border-color: var(--secondary-color);
+  outline: none;
+}
+
+.noData {
+  text-align: center;
+  color: #888;
+  font-style: italic;
+}
+
+.error {
+  text-align: center;
+  color: #dc3545;
+  font-size: 1.4rem;
+  margin-top: 2rem;
+}
+
+.quranList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.surahItem {
+  padding: 1.25rem;
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--card-bg-color);
+  transition: background-color 0.3s ease;
+  border-radius: 8px; 
+  margin-top: 8px;
+}
+
+.surahItem:hover {
+  background-color: var(--tertiary-color);
+  border: 1px solid var(--secondary-color);
+}
+
+.surahTitle {
+  font-size: 1.2rem;
+  color: #333;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.surahNumber {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: var(--secondary-color);
+  color: #fff;
+  border-radius: 50%;
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.playButton {
+  padding: 0.5rem 1.25rem;
+  border: none;
+  background-color: var(--secondary-color);
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+}
+
+.playButton:hover {
+  background-color: var(--primary-color);
+}
+
+/* استجابة للشاشات المتوسطة */
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .searchInput {
+    padding: 0.6rem;
+    font-size: 0.95rem;
+  }
+
+  .surahTitle {
+    font-size: 1.1rem;
+  }
+
+  .playButton {
+    padding: 0.4rem 1rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* استجابة للشاشات الأصغر (مثل الجوالات) */
+@media (max-width: 480px) {
+  .container {
+    padding: 0.75rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .searchInput {
+    padding: 0.5rem;
+    font-size: 0.85rem;
+  }
+
+  .surahTitle {
+    font-size: 1rem;
+  }
+
+  .playButton {
+    padding: 0.3rem 0.75rem;
+    font-size: 0.85rem;
+  }
+}

@@ -1,0 +1,41 @@
+.backButton {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: var(--secondary-color);
+  color: var(--text-white);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  margin-bottom: 1rem;
+  margin-top: 30px;
+}
+
+.backButton:hover {
+  background-color: var(--primary-color);
+}
+
+.reciterName {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--main-text-color);
+  margin-bottom: 10px;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.recitation {
+  font-size: 1.2rem;
+  color: #666;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.errorMessage {
+  font-size: 1.2rem;
+  color: #e74c3c;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

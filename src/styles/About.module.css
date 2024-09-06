@@ -1,0 +1,36 @@
+/* styles/About.module.css */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .section {
+    margin-bottom: 2rem;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .titleIcon {
+    margin: 0.5rem;
+    color: var(--secondary-color);
+
+  }
+  
+  .paragraph {
+    line-height: 1.6;
+  }
+  
+  .link {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  

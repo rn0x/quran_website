@@ -1,0 +1,73 @@
+.heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+
+.surahList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.surahItem {
+  width: 95%;
+  max-width: 280px;
+  background: var(--card-bg-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 15px;
+  cursor: pointer;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.surahItem:hover {
+  /* transform: scale(1.02); */
+  box-shadow: var(--card-shadow);
+  border: 1px solid var(--secondary-color);
+}
+
+.surahItem:hover .surahName {
+  color: var(--secondary-color);
+}
+
+.surahName {
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+}
+
+.surahDetails {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  color: #7f8c8d;
+}
+
+.loading,
+.error {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #e74c3c;
+}
+
+.iconAlnuzul {
+  fill: #ff0040;
+  background-color: aquamarine;
+}
+
+@media (max-width: 700px) {
+  .surahItem {
+    max-width: 95%;
+  }
+}

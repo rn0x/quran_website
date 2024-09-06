@@ -1,0 +1,36 @@
+/* styles/404.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .description {
+    margin-top: 0px;
+    font-size: 1.25rem;
+    color: #666;
+  }
+  
+  .cta {
+    margin-top: 40px;
+    padding: 10px 20px;
+    background-color: #0070f3;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta:hover {
+    background-color: #005bb5;
+  }
+  
+  .illustration {
+    margin-top: 0px;
+    max-width: 400px;
+    user-select: none;
+  }
+  

@@ -1,0 +1,28 @@
+.title {
+  text-align: center;
+  font-size: 22px;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0px auto;
+}
+
+.cardsitem {
+  display: block;
+  width: 95%;
+  max-width: 300px;
+  margin: 10px 10px;
+}
+
+@media (max-width: 700px) {
+  .cardsitem {
+    max-width: 95%;
+  }
+}

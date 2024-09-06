@@ -1,0 +1,159 @@
+/* Surah.module.css */
+
+.title {
+  text-align: center;
+  font-family: "Mehr";
+}
+
+.boxInfo {
+  width: 95%;
+  max-width: 700px;
+  background-color: var(--card-bg-color);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px auto;
+  position: relative;
+  border: 1px solid var(--border-color);
+}
+
+.box_details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.details {
+  background-color: var(--box-color);
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  margin: 0px;
+}
+
+.details span {
+  color: var(--primary-color);
+}
+
+.titleInfo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--gradient);
+  top: -30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  color: var(--text-white);
+  white-space: nowrap;
+}
+
+/* نص السورة */
+.boxSurah {
+  margin-top: 20px;
+}
+
+
+.bismillah {
+  font-family: "hafs";
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+}
+
+/* حاوية الآية */
+.surahText {
+  display: flex;
+  flex-direction: column;
+}
+
+.verseContainer {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--border-color);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: var(--card-bg-color);
+  position: relative;
+}
+
+.verseContainer:hover {
+  border: 1px solid var(--secondary-color);
+}
+
+.verseContainer:hover .VerseNumber {
+  color: var(--secondary-color);
+}
+
+.verseContainer:hover .verseText,
+.verseContainer:hover .verseTextEn {
+  color: var(--secondary-color);
+}
+
+
+.verseBox {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.verseText {
+  font-family: "hafs";
+  font-size: 25px;
+}
+.verseTextEn {
+  font-family: "hafs";
+  font-size: 15px;
+  direction: ltr;
+}
+
+.VerseNumber {
+  font-family: "hafs";
+  font-size: 38px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.icon {
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s ease;
+  font-size: 13px;
+}
+
+.icon:hover {
+  color: var(--secondary-color);
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.navButton {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px 20px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.navButton:hover {
+  background-color: var(--secondary-color);
+  color: var(--text-white);
+}

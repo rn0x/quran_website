@@ -1,0 +1,25 @@
+/* متغيرات الثيم النهاري */
+[data-theme="light"] {
+  --primary-color: #009688;
+  --secondary-color: #4DB6AC;
+  --tertiary-color: #B2DFDB;
+  --background-color: #edf0f4;
+  --box-color: #edf0f4;
+  --header-bg-color: #ffffff;
+  --footer-bg-color: #f1f1f1;
+  --border-color: #dddddd;
+  --input-bg-color: #ffffff;
+  --input-placeholder-color: #999999;
+  --input-border-color: #cccccc;
+  --main-text-color: #333333;
+  --text-white: #ffffff;
+  --text-color-2: #8e8e8e;
+  --gradient: linear-gradient(45deg, #e8ba3d, #bb842c);
+  --button-bg-color: #ddffd9;
+  --button-text-color: #5f925f;
+  --button-hover-bg-color: #ffd9d9;
+  --button-hover-text-color: #7b3535;
+  --link-hover-color: #0f8dc8;
+  --card-bg-color: #ffffff;
+  --card-shadow: 0 4px 8px #0000001a;
+}
